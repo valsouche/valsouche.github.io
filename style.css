@@ -11,7 +11,7 @@
     display: flex;
     justify-content: center;
     padding: 20px;
-    padding-top: 2vh;
+    margin-top: 10vh;
     text-align: center;
   }
 
@@ -28,18 +28,31 @@
     color: white;
     text-align: center;
     font-family: 'Inconsolata', sans-serif;  
-    font-size: 5vh;
-    margin-top: 0px !important;
-    padding: 20px;
+    font-size: 2.5vh;
+    padding: 70px;
+  }
+
+  .skills {
+    font-weight: 600;
+  }
+
+  .binary {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+    margin-top: 8vh;
   }
 
   .socials {
     display: flex;
     justify-content: center;
     color: white;
-    font-size: 80px;
+    font-size: 8vh;
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 19vh;
   }
 
   .socials > a {
@@ -50,7 +63,7 @@
   
   .glitch {
     color: white;
-    font-size: 10vh;
+    font-size: 8vh;
     margin: 10px 20px;
   }
   
@@ -83,16 +96,6 @@
     position: absolute;
     text-shadow: 1px 0 blue;
     top: 0;
-  }
-
-  @media screen and (min-width: 640px) {
-    .name {
-      flex-direction: row; 
-    }
-
-    .name-container {
-      padding-top: 20vh;
-    }
   }
 
   /* Expanded Animations */
