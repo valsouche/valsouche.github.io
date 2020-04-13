@@ -1,17 +1,13 @@
-<!DOCTYPE html> <br>
+<!doctype html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="description" content="Valentin Souche web dev">
-  <meta name="author" content="Valentin Souche">
-  <title>VSOWEBDEV</title>
-  <link rel="icon" href="favicon.ico" />
-  <link href="styles/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Baloo+Bhai" rel="stylesheet">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-
-
+  <link href="http://necolas.github.io/normalize.css/3.0.2/normalize.css" rel='stylesheet'/>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel='stylesheet'/>
+  <link href="style.css" rel='stylesheet'/>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js"></script>
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
@@ -20,29 +16,21 @@
           crossorigin="anonymous"></script>
   <script src="scripts/typed.js"></script>
   <script src="scripts/script.js"></script>
-</head>
+ </head>
 <body>
-  <div id="home" class="container">
-    <div class="home-text">
-      <div>
-      <h1>Hi, I'm Val</h1>
-      <p class="description"> I'm a french software engineer in love with <br> <span class="skills"></span></p>
-    </div>
-    <div class="icons">
-        <a href="https://www.linkedin.com/in/vsouche" target="_blank"><i class="fa fa-linkedin-square linkedin" aria-hidden="true"></i></a>
-        <a href="https://twitter.com/ValSouche" target="_blank"><i class="fa fa-twitter-square twitter" aria-hidden="true"></i></a>
-        <a href="https://github.com/valsouche" target="_blank"><i class="fa fa-github-square github" aria-hidden="true"></i></a>
+  <div class="name-container">
+    <div class="name">
+      <div class="glitch" data-text="VALENTIN">VALENTIN</div>
+      <div class="glitch" data-text="SOUCHE">SOUCHE</div>
     </div>
   </div>
-
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-    ga('create', 'UA-57444873-1', 'auto');
-    ga('send', 'pageview');
-  </script>
+  <div class="description">
+    <p>I'm a french software engineer in love with <br> <span class="skills"></span></p>
+  </div>
+  <div class="socials">
+    <a href="https://github.com/valsouche"><i class="fab fa-github-square"></i></a>
+    <a href="https://twitter.com/ValSouche"><i class="fab fa-twitter-square"></i></a>
+    <a href="https://www.linkedin.com/in/vsouche/"><i class="fab fa-linkedin"></i></a>
+  </div>
 </body>
 </html>
