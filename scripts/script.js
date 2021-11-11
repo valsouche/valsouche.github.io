@@ -1,6 +1,6 @@
 $(function(){
         $(".skills").typed({
-            strings: ["Technologies", "Dev", "Sport", "Twitch game", "South of France" ],
+            strings: ["Teads", "Dev", "Scala", "Typescript", "Node & React", "AWS", "Sport" ],
             typeSpeed: 50,
             shuffle: false,
             loop: true
